@@ -1,0 +1,18 @@
+{
+    "name": "fimage/image-resizer",
+    "description": "A library for resizing and reformating image",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fimage\\ImageResizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ferdi Saptoko",
+            "email": "ferdisaptoko@gmail.com"
+        }
+    ],
+    "require": {}
+}
