@@ -1,5 +1,5 @@
 {
-    "name": "fimagephp/image-editor",
+    "name": "fimage/image-editor",
     "description": "A library for resizing and reformating image",
     "type": "library",
     "license": "MIT",
