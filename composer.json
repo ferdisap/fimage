@@ -1,11 +1,11 @@
 {
-    "name": "fimage/image-resizer",
+    "name": "fimagephp",
     "description": "A library for resizing and reformating image",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fimage\\ImageResizer\\": "src/"
+            "Fimage\\": "src/"
         }
     },
     "authors": [
