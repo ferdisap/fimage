@@ -31,9 +31,6 @@ class ImageResizer {
   public static function setFormat($format, $imagePath, $storePath)
   {
     $im = new \Imagick($imagePath);
-    if ($im->getImageFormat() == $format) {
-      return false;
-    }
     $im->setImageFormat($format);
     return $im->writeImageFile(fopen($storePath, "wb")) ?? false;
   }
